@@ -13,4 +13,3 @@ MD
 MA
 OK
 TN
-VT
