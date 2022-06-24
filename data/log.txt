@@ -56,3 +56,5 @@ Invalid argument
 Permission denied
 18/6/2022 9:12:42s => hsele.py: 1220 => hsele.py: 359 => 13
 Permission denied
+22/6/2022 12:33:0s => hcaptcha.py: 33 => hfile.py: 70 => 2
+No such file or directory

@@ -33,7 +33,7 @@
       }
    },
    "countryid_at_install": 21077,
-   "credentials_enable_service": true,
+   "credentials_enable_service": false,
    "default_apps_install_state": 3,
    "devtools": {
       "adb_key": "MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDTt6x05BibieaJTo1H//j48Fq2R0AqwW5baXD5BgQeu2K2HVhlgFLKYT2j3rFwbDYqcGdcUlXcF+9bMZuwjHKip6ne5JNTUYcsThlCmaX1yxNadREsw352jwBe0alUaG2xcSuUBf/42PLk5LNwtOxnO1k4Yrq/lANuLA6Sy/p3UL3NOqGoVxW5vZZ7g2wtgG1StWc1XRnW9eglvyiKWprg87E996yyQJOOb1IVOKF0kug+EyKqCHbr+8kejxzRIE7+tHBnT8O55p74syW/FKAy9YYnjH4sHGVi7xJ+P9hoN3SACCEUcMlOfcH+HTEVl/9RNQ8kVKFDaMhRM05Bt9MJAgMBAAECggEAG774uCnzaqDgKFL103+BlLhFHxnH2EKY0JyJLG2EKTXkChte7BBs6S5kul7TMLlRwO6RsSjuLSWq3e/qqDDDzjq8WaRphVQMK7uBdne15vgp7WMlsNDe+DEl+ocuEoyMAaLj8+Z0ZRuje2lYddcUGzRNLUVNFZHTgEMAVu8qACxEqY0Y6NN+YY9F4qGeRj6tMfhG+ybtMcmpvdbIMDs0VR7RXLEy3gkao66JoYO7U/U9kWBLIz5IMxd82SsqGWQ23LR+bW5OttG4icSL/8K53Ote9l+RTohzN9RhocgyRAJ4LQfDA3Jq7uLUnVmPw35WrXCajaEUw//x+rb54peW3QKBgQD++VMOJ/8+tef6i2+UXiZJqHoUEL7Z8qhRvYAUlXlqm1PP/cf4LRAoKb0kTQ16INwanDt+YU7iqy2Amcj+DQC+CbQ3wcjzqBVhjhV/q1+ydb66xqSk/aiOfZIy8VUSUqFroiXr5zLf/G7NDbF1wtsRL6m+c0YSr7Pip6VG05PAVQKBgQDUkclDoyUgItIww6Dphsow4TfNN6b+sPkjOF5+PQtRbASn7Nprc0TU6hydoQWcErn/zObhPp2QEbDu5Lw/C3h2vLsJXk35m8kqp1YgsQS1mChdPIp5bsgy9a3IsQZ2Z9R1a/kF8x0oX9u/037yMBAIa2GZ7xo24lCXddtb3MSr5QKBgDv/89l69AePyt0cfs9NMHlY2hFqt16WSaGilEdDvWSm1Jw3Ph1ajVjGKaonL6qznNfuN9nPkD6qxXRju/Z8nNYbdntAcMdVoGJqiwiWDVjzeER/hjMFNesCBatTOw+qvi2T5JSUvVYUEwbR2Ba8Gcz7iFg2zCCNlCkcBjqag0RZAoGANVK84jKyxXT2tTTd0Lb3UXutu9USFyHd3W/uhExb4njuUhGgWQP5aE+yDfiup5ArCHgmEqraa6GEeOj4L/h4p5CAesElXlAuDn0bpefB/qvEtF7TfdLEdcQbbBS8QkeZjDshpNRvpAkn3t73IVndK7+EJFFOiiYLgXMXK9wdmeECgYANQSTe/ABS71FUwYZT93cwhLyCgWq3AdptVWZ4iLVlPj9LKGyL8Rb4YLRjez415NBserQvLesPYN6kNmMGf7CORb3mQOvpz0DX6c5GsseLYMjaVt7iYXTP0d5ZzMfQUy+ub2JxX5/mjs9e+NAkA5nrG+SmG+MwMCoq2jxsQLzC1g==",
@@ -62,7 +62,7 @@
    },
    "extensions": {
       "alerts": {
-         "initialized": true
+         "initialized": false
       },
       "chrome_url_overrides": {
 
@@ -74,6 +74,7 @@
             "global": false
          }
       },
+	  "external_uninstalls": [ "lmjegmlicamnimmfhcmpkclmigmmcbeh" ],
       "last_chrome_version": "100.0.4896.60",
       "settings": {
          "ahfgeienlihckogmohjhadlkjgocpleb": {
@@ -1057,7 +1058,7 @@
       },
       "created_by_version": "98.0.4758.80",
       "creation_time": "13291128581854556",
-      "exit_type": "Crashed",
+      "exit_type": "Normal",
       "last_engagement_time": "13299863396844762",
       "last_time_obsolete_http_credentials_removed": 1655389332.035936,
       "last_time_password_store_metrics_reported": 1655389302.035151,
