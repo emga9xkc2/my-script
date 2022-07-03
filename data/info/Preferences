@@ -364,7 +364,8 @@
          "username": "justapipe"
       },
       "screenHeight": screenHeightR,
-      "screenWidth": screenWidthR,      
+      "screenWidth": screenWidthR,   
+	  "startupUrl": "startupUrlR",	  
       "storage": {
          "enable": true
       },
