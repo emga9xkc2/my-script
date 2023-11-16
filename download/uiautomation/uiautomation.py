@@ -5714,7 +5714,7 @@ def CreatePattern(patternId: int, pattern: ctypes.POINTER(comtypes.IUnknown)):
 
 
 class Control():
-    ValidKeys = set(['ControlType', 'ClassName', 'AutomationId', 'Name', 'SubName', 'RegexName', 'Depth', 'Compare'])
+    ValidKeys = set(['ControlType', 'ClassName', 'AutomationId', 'Name', 'SubName', 'RegexName', 'Depth', 'Compare', "HelpText"])
 
     def __init__(self, searchFromControl: 'Control' = None, searchDepth: int = 0xFFFFFFFF, searchInterval: float = SEARCH_INTERVAL, foundIndex: int = 1, element=None, **searchProperties):
         """
@@ -6365,6 +6365,9 @@ class Control():
                     return False
             elif 'AutomationId' == key:
                 if value != control.AutomationId:
+                    return False
+            elif 'HelpText' == key:
+                if value != control.HelpText:
                     return False
             elif 'Depth' == key:
                 if value != depth:
